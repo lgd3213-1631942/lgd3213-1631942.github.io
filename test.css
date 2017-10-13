@@ -1,4 +1,7 @@
 /*
+Ridge and radius border to header.
+Grayscale filter to content. 
+Opacity, and text decoration to footer.
 
 */
 
@@ -38,6 +41,9 @@ li{
 	margin-bottom: 10px;
 	text-align: center;
 	background-color: #8E41D5;
+	border-style: ridge;
+	border-color: white;
+	border-radius: 20px;
 
 
 }
@@ -47,6 +53,7 @@ li{
 	font-family: Passion One;
 	color: #FFBC00;
 	font-weight: bold;
+	box-shadow: 2px 2px purp;
 
 }
 
@@ -61,10 +68,9 @@ li{
 	padding-bottom: 8px;
 	background-color: #8E41D5;
 
-
 }
 
-#LeftNag img{
+#LeftNag img{ 
 
 }
 
@@ -91,6 +97,7 @@ li{
 	text-align: center;
 	padding: 15px;
 	background-color: #8E41D5;
+	filter: grayscale(100%);
 
 }
 
@@ -98,6 +105,9 @@ li{
 	border: solid 8px black;
 	text-align: center;
 	background-color: #8E41D5;
+	opacity: .5;
+	text-decoration: underline;
+	text-decoration-color: #FFBC00;
 
 }	
 	ul{

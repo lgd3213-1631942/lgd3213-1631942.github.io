@@ -9,29 +9,28 @@
 <body>
 <div class="container">
 
-<h1>Grey Sloan Memorial Hospital</h1>
 <h2>Job Application</h2>
 <p>&nbsp;</p>
 
-<form action="http://gclass.alexburner.com/formtest.php" method="post">
+<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
 
 	<fieldset class="form-horizontal" >
 		<legend>Account</legend>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Email</label>
-			<div class="col-sm-3">
+			<div class="col-sm-9">
 				<input class="form-control" type="text" name="email">
 			</div>
 		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Password</label>
-			<div class="col-sm-3">
+			<div class="col-sm-9">
 				<input class="form-control" type="password" name="password">
 			</div>
 		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Repeat password</label>
-			<div class="col-sm-3">
+			<div class="col-sm-9">
 				<input class="form-control" type="password" name="repeat_password">
 			</div>
 		</div>
@@ -42,15 +41,9 @@
 	<fieldset class="form-horizontal" >
 		<legend>Personal Information</legend>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">Legal Name</label>
-			<div class="col-sm-4">
-				<input class="form-control" type="text" name="name" placeholder="First">
-			</div>
-			<div class="col-sm-1">
-				<input class="form-control" type="text" name="name" placeholder="M.I.">
-			</div>
-			<div class="col-sm-4">
-				<input class="form-control" type="text" name="name" placeholder="Last">
+			<label class="col-sm-3 control-label">Full name</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="name">
 			</div>
 		</div>
 		<div class="form-group">
@@ -61,13 +54,13 @@
 		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">City</label>
-			<div class="col-sm-3">
+			<div class="col-sm-9">
 				<input class="form-control" type="text" name="city">
 			</div>
 		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">State</label>
-			<div class="col-sm-3">
+			<div class="col-sm-9">
 				<select class="form-control" name="state">
 					<option value="" selected="true">Choose a State</option>
 					<option value="AL">Alabama</option>
@@ -126,63 +119,8 @@
 		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">ZIP</label>
-			<div class="col-sm-2">
+			<div class="col-sm-9">
 				<input class="form-control" type="text" name="zip">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Home Phone Number</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="home">
-			</div>
-			<label class="col-sm-3 control-label">Cell Phone Number</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="cell">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Emergency Contact Name</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="name">
-			</div>
-			<label class="col-sm-3 control-label">Emergency Contact Number</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="number">
-			</div>
-
-		</div>	
-		<div class="form-group">
-            <label class="col-sm-3 control-label" for="SSN">SSN:</label>
-            <div class="col-sm-2">
-                    <input class="form-control" type="password" id="SSN" placeholder="###-##-####" size="12">
-            </div>
-		</div>	
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Are you 18 years or older?</label>
-			<div class="col-sm-3 radio">
-				<div class="radio">
-					<label>
-						<input type="radio" name="age" value="yes">Yes
-					</label>	
-				</div>
-				<div class="radio">
-					<label>
-						<input type="radio" name="age" value="no">No
-					</label>
-				</div>
-			</div>
-			<label class="col-sm-3 control-label">Gender</label>
-			<div class="col-sm-3 radio">
-				<div class="radio">
-					<label>
-						<input type="radio" name="age" value="Male">Male
-					</label>
-				</div>
-				<div class="radio">
-					<label>
-						<input type="radio" name="age" value="Female">Female
-					</label>
-				</div>
 			</div>
 		</div>
 	</fieldset>
@@ -190,7 +128,7 @@
 	<p>&nbsp;</p>
 
 	<fieldset>
-		<legend>Availability</legend>		
+		<legend>Availability</legend>
 		<div class="form-group row">
 			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
 			<div class="col-sm-offset-1 col-sm-11">
@@ -211,114 +149,30 @@
 			<div class="col-sm-offset-1 col-sm-11">
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="position_pt" value="Attending">
-						Attending
+						<input type="checkbox" name="position_pt" value="parttime">
+						Part time
 					</label>
 				</div>
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="position_ft" value="Fellow">
-						Fellow
+						<input type="checkbox" name="position_ft" value="fulltime">
+						Full time
 					</label>
 				</div>
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="position_sl" value="Resident">
-						Resident
+						<input type="checkbox" name="position_sl" value="seasonal">
+						Seasonal
 					</label>
 				</div>
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="position_tp" value="Intern">
-						Intern
+						<input type="checkbox" name="position_tp" value="temporary">
+						Temporary
 					</label>
 				</div>
 			</div>
 		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">What area(s) are you looking to specialize in? (check all that apply)</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_tp" value="Anesthesiology">
-						Anesthesiology
-					</label>
-				</div>	
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="Cardiology">
-						Cardiology
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="General">
-						General
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="Neurology">
-						Neurology
-					</label>
-				</div>	
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="Obstetrics">
-						Obstetrics
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_tp" value="Oncology">
-						Oncology
-					</label>
-				</div>	
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_tp" value="Orthopaedic">
-						Orthopaedic
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="Pathology">
-						Pathology
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_tp" value="Pediatrics">
-						Pediatrics
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="Plastics">
-						Plastics
-					</label>
-				</div>	
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_ft" value="Radiology">
-						Radiology
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_pt" value="Surgery">
-						Surgery
-					</label>
-				</div>					
-				
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="Urology">
-						Urology
-					</label>
-				</div>																			
-			</div>
-		</div>		
 		<div class="form-group row">
 			<label class="col-sm-12 control-label">Hours available</label>
 			<div class="col-sm-12">
@@ -359,189 +213,24 @@
 	</fieldset>
 
 	<p>&nbsp;</p>
-	
-	<fieldset class="form-horizontal">
-		<legend>Education</legend>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">School</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="school">
-			</div>
-			<label class="col-sm-3 control-label">School</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="school">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Degree</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="degree">
-			</div>
-			<label class="col-sm-3 control-label">Degree</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="degree">
-			</div>	
-		</div>		
-		<div class="form-group">
-			<label class="col-sm-2 control-label">G.P.A.</label>
-			<div class="col-sm-1">
-				<input class="form-control" type="text" name="gpa">
-			</div>
-			<label class="col-sm-5 control-label">G.P.A.</label>
-			<div class="col-sm-1">
-				<input class="form-control" type="text" name="gpa">
-			</div>	
-		</div>	
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Class Rank</label>
-			<div class="col-sm-1">
-				<input class="form-control" type="text" name="rank">
-			</div>
-			<label class="col-sm-5 control-label">Class Rank</label>
-			<div class="col-sm-1">
-				<input class="form-control" type="text" name="rank">
-			</div>	
-		</div>									
-	</fieldset>
-
-	<p>&nbsp;</p>
-
-	<fieldset class="form-horizontal">
-		<legend>Experience</legend>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Total Volunteer Hours</label>
-			<div class="col-sm-1">
-				<input class="form-control" type="text" name="hours">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Where have you volunteered? Why did you choose to volunteer there? What have you learned in that time? How will the experience you gained help you here?</label>
-			<div class="col-sm-7">
-				<textarea class="form-control" name="deserve" rows="6"></textarea>
-			</div>
-		</div>	
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Total Shadow Hours</label>
-			<div class="col-sm-1">
-				<input class="form-control" type="text" name="hours">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Who have you shadowed? Why did you choose to follow them? What have you learned in that time? How will the experience you gained help you here?</label>
-			<div class="col-sm-7">
-				<textarea class="form-control" name="project" rows="6"></textarea>
-			</div>
-		</div>
-	</fieldset>
-
-	<p>&nbsp;</p>
 
 	<fieldset>
 		<legend>Personal Statement</legend>
 		<div class="form-group">
-			<label class="control-label">Why do you want to specialize in your chosen field(s)?</label>
+			<label class="control-label">Why do you deserve this job?</label>
 			<textarea class="form-control" name="deserve" rows="6"></textarea>
 		</div>
 		<div class="form-group">
-			<label class="control-label">Why do you believe you deserve this position?</label>
+			<label class="control-label">Describe a recent project</label>
 			<textarea class="form-control" name="project" rows="6"></textarea>
 		</div>
 	</fieldset>
 
 	<p>&nbsp;</p>
 
-	<fieldset class="form-horizontal" >
-		<legend>Recommendations</legend>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Name</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="name">
-			</div>
-			<label class="col-sm-3 control-label">Relationship to Person</label>
-			<div class="col-sm-3">
-				<select class="form-control" name="relationship">
-					<option name="" selected="true">Choose a Relationship</option>
-					<option name="Academic">Academic</option>
-					<option name="colleague">Colleague</option>
-					<option name="personal">Personal</option>
-					<option name="professional">Professional</option>
-					<option name="supervisor">Supervisor</option>
-				</select>
-			</div>
-		</div>	
-		<div class="form-group">	
-			<label class="col-sm-2 control-label">Phone Number</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="number">
-			</div>
-			<label class="col-sm-3 control-label">Email</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="email">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Name</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="name">
-			</div>
-			<label class="col-sm-3 control-label">Relationship to Person</label>
-			<div class="col-sm-3">
-				<select class="form-control" name="relationship">
-					<option name="" selected="true">Choose a Relationship</option>
-					<option name="Academic">Academic</option>
-					<option name="colleague">Colleague</option>
-					<option name="personal">Personal</option>
-					<option name="professional">Professional</option>
-					<option name="supervisor">Supervisor</option>
-				</select>
-			</div>
-		</div>	
-		<div class="form-group">	
-			<label class="col-sm-2 control-label">Phone Number</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="number">
-			</div>
-			<label class="col-sm-3 control-label">Email</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="email">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Name</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="name">
-			</div>
-			<label class="col-sm-3 control-label">Relationship to Person</label>
-			<div class="col-sm-3">
-				<select class="form-control" name="relationship">
-					<option name="" selected="true">Choose a Relationship</option>
-					<option name="Academic">Academic</option>
-					<option name="colleague">Colleague</option>
-					<option name="personal">Personal</option>
-					<option name="professional">Professional</option>
-					<option name="supervisor">Supervisor</option>
-				</select>
-			</div>
-		</div>	
-		<div class="form-group">	
-			<label class="col-sm-2 control-label">Phone Number</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="number">
-			</div>
-			<label class="col-sm-3 control-label">Email</label>
-			<div class="col-sm-3">
-				<input class="form-control" type="text" name="email">
-			</div>
-		</div>
-	</fieldset>
+	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 
 	<p>&nbsp;</p>
-
-	<input class="btn btn-primary btn-lg" type="save" value="Save">
-	<input class="btn btn-primary btn-lg" type="submit" value="Submit Form">
-
-	<p>&nbsp;</p>
-
 
 </form>
 </div><!-- close .container -->

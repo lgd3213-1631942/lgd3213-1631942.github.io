@@ -24,6 +24,14 @@ h2{
 	color: white;
 }
 
+#p1{
+	text-align: center;
+	color: red;
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+}
+
 #Account legend{
 	color: #f1a696;
 }

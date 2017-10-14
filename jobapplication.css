@@ -5,10 +5,15 @@ body{
 
 #Header{
 	text-align: center;
-	background-image: url('seattle.jpg');
+	background-image: url('https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2012/09/Peter-West-Carey-Seattle2012-0908-6437-15.jpg?ssl=1');
 	background-repeat: no-repeat;
 	background-size: 100%;
 
+}
+
+.container{
+	background-color: #999999;
+	color: black;
 }
 
 h1{
@@ -20,18 +25,54 @@ h2{
 
 }
 
-#Account{
-
+#Account legend{
+	color: #f1a696;
 }
 
-#PersonalInformation{
-
+#Account legend{
+	color: #f1a696;
 }
 
-#Availability{
-
+#PersonalInformation legend{
+	color: #f1a696;
 }
 
-#Education{
-
+#Availability legend{
+	color: #f1a696;
 }
+
+#Education legend{
+	color: #f1a696;
+}
+
+#Experience legend{
+	color: #f1a696;
+}
+
+#PersonalStatement legend{
+	color: #f1a696;
+}
+
+#Recommendations legend{
+	color: #f1a696;
+}
+
+#Button1{
+	background-color: #800000;
+	color: white;
+	border-color: white;
+}
+
+#Button2{
+	background-color: #40bf40;
+	color: black;
+	border-color: black;
+	font-weight: bold;
+}
+
+
+
+
+
+
+

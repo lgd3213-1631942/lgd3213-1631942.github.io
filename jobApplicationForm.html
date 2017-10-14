@@ -4,18 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Job Application</title>
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="jobapplication.css" />
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body style="background-color: #d8f0ff">
 <div class="container">
 
-<h1>Grey Sloan Memorial Hospital</h1>
-<h2>Job Application</h2>
+	<div id="Header">
+		<h1 style="font-size: 50px">Grey Sloan Memorial Hospital</h1>
+		<h2>Job Application</h2>
+	</div>
+
 <p>&nbsp;</p>
 
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
-	<fieldset class="form-horizontal" >
+	<fieldset class="form-horizontal" id="Account">
 		<legend>Account</legend>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Email</label>
@@ -39,7 +43,7 @@
 
 	<p>&nbsp;</p>
 
-	<fieldset class="form-horizontal" >
+	<fieldset class="form-horizontal" id="PersonalInformation">
 		<legend>Personal Information</legend>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Legal Name</label>
@@ -189,7 +193,7 @@
 
 	<p>&nbsp;</p>
 
-	<fieldset>
+	<fieldset id="Availability">
 		<legend>Availability</legend>		
 		<div class="form-group row">
 			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
@@ -360,7 +364,7 @@
 
 	<p>&nbsp;</p>
 	
-	<fieldset class="form-horizontal">
+	<fieldset class="form-horizontal" id="Education">
 		<legend>Education</legend>
 		<div class="form-group">
 			<label class="col-sm-2 control-label">School</label>
@@ -406,7 +410,7 @@
 
 	<p>&nbsp;</p>
 
-	<fieldset class="form-horizontal">
+	<fieldset class="form-horizontal" id="Experience">
 		<legend>Experience</legend>
 		<div class="form-group">
 			<label class="col-sm-2 control-label">Total Volunteer Hours</label>
@@ -436,7 +440,7 @@
 
 	<p>&nbsp;</p>
 
-	<fieldset>
+	<fieldset id="PersonalStatement">
 		<legend>Personal Statement</legend>
 		<div class="form-group">
 			<label class="control-label">Why do you want to specialize in your chosen field(s)?</label>
@@ -450,7 +454,7 @@
 
 	<p>&nbsp;</p>
 
-	<fieldset class="form-horizontal" >
+	<fieldset class="form-horizontal" id="Recommendations">
 		<legend>Recommendations</legend>
 		<div class="form-group">
 			<label class="col-sm-2 control-label">Name</label>
@@ -537,8 +541,8 @@
 
 	<p>&nbsp;</p>
 
-	<input class="btn btn-primary btn-lg" type="submit" value="Save">
-	<input class="btn btn-primary btn-lg" type="submit" value="Submit Form">
+	<input id="Button1" class="btn btn-primary btn-lg" type="submit" value="Save">
+	<input id="Button2" class="btn btn-primary btn-lg" type="submit" value="Submit Form">
 
 	<p>&nbsp;</p>
 
